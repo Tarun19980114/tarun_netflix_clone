@@ -61,10 +61,9 @@ a {
     display: flex;
     padding: 10px 35px;
     align-items: center;
+    margin-left: 350px;
     float: right;
-    right: 0;
     font-size: 22px;
-    border: 1px solid white;
 }
 .icon-item{
     padding: 10px 25px;
@@ -74,7 +73,7 @@ a {
 
 /* Banner Css*/
 .banner {
-    width: 99%;
+    width: 100%;
     height: 550px;
     /* border: 2px s/olid #fff; */
     background-image: url(icons/banner.jpg);
@@ -146,8 +145,6 @@ a {
     font-weight: lighter;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 0spx;
-    margin-top: 0px;
     display: contents;
 }
 
@@ -189,7 +186,7 @@ footer {
 }
 
 footer {
-    max-width: 800px;
+    width: 100%;
     height: 300px;
     display: flex;
     line-height: 2;
