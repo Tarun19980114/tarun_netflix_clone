@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="icon" href="icons/netio.webp">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -23,6 +24,7 @@
             <a href="#" class="nav-item">My List</a>
         </div>
         <div class="icon">
+            <i onclick="changemode()" class="fa-regular fa-lightbulb"></i>
             <i class="fa-solid fa-magnifying-glass icon-item"></i>
             <i class="fa-sharp fa-solid fa-bell icon-item"></i>
             <img src="icons/user-image-green.png" class="icon-item" alt="user">
@@ -31,7 +33,7 @@
 
     </header>
     <!-- Banner -->
-    <div class="banner">
+    <div class="banner" id="banner-bar">
         <div class="title_bar">
             <h2 id="brand">Money Heist</h2>
             <div class="banner-button">
@@ -96,7 +98,7 @@
             <img src="image/bollywood_movie10.jpg" alt="" class="movies_lists">
         </div>
     </div>
-    <!-- Hollywood Movies Lists -->
+    <!-- Hollywood Movies / -->
     <h1 id="movie_title">Hollywoods Movies</h1>
     <hr>
     <div class="movies">
@@ -168,10 +170,18 @@
         </div>
         </div>
         <button class="button-service">Service Code</button>
-        <p class="copyright">@copyright 2022 TarunDeveloper, In.</p>
+        <p class="copyright">@copyright 2022 TarunDeveloper.in</p>
         </div>
     </footer>
 
+  <!-- Coupon -->
+  <div id="coupon">
+    <button onclick="closecoupon()">&times;</button>
+</div>
+
+<script>
+    window.onload = loadCoupon()
+</script>
 </body>
 
 </html>
