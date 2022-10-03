@@ -5,6 +5,7 @@ body {
     padding: 0;
     /* width: 99%; */
     background-color: black;
+    position: relative;
 }
 
 .mydark {
