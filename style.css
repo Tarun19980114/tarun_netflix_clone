@@ -190,6 +190,7 @@ a {
 #mylocation {
     color: red;
     margin-top: 25px;
+    display: inline;
 }
 
 /* Coupon Css */
