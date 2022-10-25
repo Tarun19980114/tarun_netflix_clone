@@ -186,6 +186,12 @@ a {
     object-fit: cover;
 }
 
+/* geolocation css */
+#mylocation {
+    color: red;
+    margin-top: 25px;
+}
+
 /* Coupon Css */
 #coupon {
     width: 45%;

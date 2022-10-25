@@ -14,3 +14,6 @@ function closecoupon(){
     document.getElementById('coupon').style.visibility = 'hidden';
     document.getElementById('banner-bar').style.opacity = '1';
 }
+
+
+
